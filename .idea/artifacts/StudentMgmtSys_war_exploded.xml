@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="StudentMgmtSys:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/StudentMgmtSys_war_exploded</output-path>
+    <root id="archive" name="StudentMgmtSys_war exploded.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="StudentMgmtSys" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="hibernate.core" />
+          <element id="library" level="project" name="hibernate-annotations-3.0alpha3" />
+          <element id="library" level="project" name="postgresql" />
+        </element>
+      </element>
+      <element id="library" level="project" name="lib" />
+      <element id="javaee-facet-resources" facet="StudentMgmtSys/web/Web" />
+      <element id="javaee-facet-resources" facet="StudentMgmtSys/web/Web2" />
+    </root>
+  </artifact>
+</component>
